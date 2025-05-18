@@ -20,7 +20,7 @@ jobs:
         run: npm ci
       - name: Lint code
         run: |
-          npx eslint -c eslint.config.js script.js tests.js ai_roman_to_int.js
+          npx eslint -c eslint.config.cjs script.js tests.js ai_roman_to_int.js
 
   test:
     needs: lint
