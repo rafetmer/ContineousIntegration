@@ -5,6 +5,7 @@
   "main": "ai_roman_to_int.js",
   "scripts": {
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest",
     "predeploy": "npm run lint && npm test"
   },
