@@ -24,8 +24,6 @@
   },
   "jest": {
     "testEnvironment": "jsdom",
-    "testMatch": ["**/tests.js"],
-    "extensionsToTreatAsEsm": [".js"],
-    "transform": {}
+    "testMatch": ["**/tests.js"]
   }
 }
