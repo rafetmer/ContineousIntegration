@@ -1,7 +1,6 @@
 {
   "name": "rafet.mercimek.alu199399",
   "version": "1.0.0",
-  "type": "module",
   "description": "Roman numerallerini dönüştüren basit bir uygulama",
   "main": "ai_roman_to_int.js",
   "scripts": {
