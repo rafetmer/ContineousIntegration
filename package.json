@@ -1,0 +1,27 @@
+{
+  "name": "rafet.mercimek.alu199399",
+  "version": "1.0.0",
+  "description": "Roman numerallerini dönüştüren basit bir uygulama",
+  "main": "ai_roman_to_int.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "predeploy": "npm run lint && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "stripe": "^17.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": ["**/tests.js"]
+  }
+}
